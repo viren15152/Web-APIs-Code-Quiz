@@ -31,7 +31,7 @@ I have created a basic coding question page with a selection of multiple choice 
 The user can launch the site in their default browser. The deployed link is provided in my repository. 
 
 ## Usage 
-The user can open the application in their default browser from my deployed link. They must then proceed to click on the start quiz button. To answer each question they can simply just click on their desired answer and it will take the user to the next question. Once they have completed the quiz they can view their score and add it to the highscores page along with their intials. The high score can also be cleared once the view the highscores page again the score will not be seen. 
+The user can open the application in their default browser from my deployed link. They must then proceed to click on the start quiz button (you will have 60 seconds to complete the quiz). To answer each question they can simply just click on their desired answer and it will take the user to the next question. Once they have completed the quiz they can view their score and add it to the highscores page along with their intials. The high score can also be cleared once they view the highscores page again the score will not be seen. 
 
 ## Contributing
 
