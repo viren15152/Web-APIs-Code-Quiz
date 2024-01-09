@@ -55,7 +55,7 @@ body {
 
   #question-container {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;  
+    font-size: 35px; /*Changes my font size for question */
     font-weight: bold;
   }
 
