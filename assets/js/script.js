@@ -93,6 +93,8 @@ const questions = [
       choiceBtn.addEventListener("click", () => selectAnswer(choice, currentQuestion.correctAnswer));
       choicesContainer.appendChild(choiceBtn);
     });
+
+    submitBtn.style.display = "none";
   }
   
   

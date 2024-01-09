@@ -6,6 +6,7 @@
 * [Visuals](#visuals)
 * [Technologies Used](#technologies-used)
 * [Installation](#installation)
+* [Usage](#usage)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
@@ -29,6 +30,8 @@ I have created a basic coding question page with a selection of multiple choice 
 
 The user can launch the site in their default browser. The deployed link is provided in my repository. 
 
+## Usage 
+The user can open the application in their default browser. They must then proceed to click on the start quiz button
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
