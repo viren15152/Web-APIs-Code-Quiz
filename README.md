@@ -22,6 +22,7 @@ I have created a basic coding question page with a selection of multiple choice 
 
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3 Badge](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=flat-square)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
 ![Google Chrome](https://img.shields.io/badge/Google%20Chrome-4285F4?style=for-the-badge&logo=GoogleChrome&logoColor=white)
@@ -32,6 +33,8 @@ The user can launch the site in their default browser. The deployed link is prov
 
 ## Usage 
 The user can open the application in their default browser from my deployed link. They must then proceed to click on the start quiz button (you will have 60 seconds to complete the quiz). To answer each question they can simply just click on their desired answer and it will take the user to the next question. Once they have completed the quiz they can view their score and add it to the highscores page along with their intials. The high score can also be cleared once they view the highscores page again the score will not be seen. 
+
+Deployed Link: 
 
 ## Contributing
 
