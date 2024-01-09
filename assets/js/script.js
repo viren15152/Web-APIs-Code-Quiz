@@ -66,6 +66,8 @@ const questions = [
   const finalScore = document.getElementById("final-score");
   const initialsInput = document.getElementById("initials");
   const submitScoreBtn = document.getElementById("submit-score");
+  //Event listner for the view the high scores button
+  document.getElementById("view-scores-btn").addEventListener("click", viewHighScores);
   
   document.getElementById("start-btn").addEventListener("click", startQuiz);
   submitBtn.addEventListener("click", selectAnswer);
@@ -160,6 +162,10 @@ const questions = [
     }, 1000);
   }
   
+  // Function to navigate to highscores page
+function viewHighScores() {
+  window.location.href = "highscores.html";
+}
   
   
 

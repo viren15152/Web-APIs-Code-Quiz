@@ -28,6 +28,7 @@ function goBack() {
 }
 
 function clearScores() {
+  console.log("Clear Scores button clicked")
   // Clear high scores (remove from local storage)
   localStorage.removeItem("highScores");
   // Refresh the displayed scores
