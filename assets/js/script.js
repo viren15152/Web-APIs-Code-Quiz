@@ -147,6 +147,19 @@ const questions = [
       alert("Please enter your initials before submitting.");
     }
   }
+  // This section of my code is my function that starts my timer
+  function startTimer() {
+    let timeRemaining = timeLimit;
+    timer = setInterval(() => {
+      document.getElementById("timer-value").textContent = timeRemaining; // Update the timer value
+      timeRemaining--;
+  
+      if (timeRemaining <= 0) {
+        endQuiz();
+      }
+    }, 1000);
+  }
+  
   
   
 
