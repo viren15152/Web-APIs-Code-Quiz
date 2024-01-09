@@ -55,7 +55,7 @@ const questions = [
   let currentQuestionIndex = 0;
   let score = 0;
   let timer;
-  const timeLimit = 60;
+  let timeLimit = 60;
   
   const startScreen = document.getElementById("start-screen");
   const quizScreen = document.getElementById("quiz");
@@ -68,7 +68,7 @@ const questions = [
   const submitScoreBtn = document.getElementById("submit-score");
   
   document.getElementById("start-btn").addEventListener("click", startQuiz);
-  submitBtn.addEventListener("click", submitAnswer);
+  submitBtn.addEventListener("click", selectAnswer);
   submitScoreBtn.addEventListener("click", submitScore);
   
   // This is my function to start the quiz
@@ -93,13 +93,10 @@ const questions = [
     });
   }
   
+  
   // This is my function to select an answer
   function selectAnswer(selected, correct) {
-    // Convert both selected and correct answers to uppercase before comparison
-    const selectedUpperCase = selected.toUpperCase();
-    const correctUpperCase = correct.toUpperCase();
-  
-    if (selectedUpperCase === correctUpperCase) {
+    if (selected === correct) {
       score++;
     } else {
       timeLimit -= 10;
@@ -108,8 +105,10 @@ const questions = [
     currentQuestionIndex++;
   
     if (currentQuestionIndex < questions.length) {
+      // Move to the next question
       loadQuestion();
     } else {
+      // End the quiz if there are no more questions
       endQuiz();
     }
   }
