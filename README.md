@@ -16,7 +16,8 @@
 I have created a basic coding question page with a selection of multiple choice questions, under timed conditions. 
 
 ## Visuals
-
+![Screenshot of Quiz homepage](<Screenshot 2024-01-11 at 20.28.16.png>)
+![Screenshot of Question Page](<Screenshot 2024-01-11 at 20.28.41.png>)
 
 ## Technologies Used
 
